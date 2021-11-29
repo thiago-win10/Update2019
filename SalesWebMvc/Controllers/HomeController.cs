@@ -20,6 +20,14 @@ namespace SalesWebMvc.Controllers {
         }
 
         public IActionResult Privacy() {
+
+            ViewData["Message"] = "Esses PROGRAMADORES É UM SUCESSO"; 
+            return View();
+        }
+
+        public IActionResult About() {
+
+            ViewData["Telefone"] = "(11) 5424-0999";
             return View();
         }
 
