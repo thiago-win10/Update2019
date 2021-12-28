@@ -47,7 +47,7 @@ namespace SalesWebMvc.Models
             Email = email;
             BirthDate = dateTime;
             BaseSalary = basesalary;
-            Department = Department;
+            Department = d1;
         }
 
         public void AddSales(SalesRecord sr)
