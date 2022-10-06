@@ -8,5 +8,6 @@
         Resolved = 3,
         Open = 4,
         Closed = 5,
+        Payment = 6
     }
 }
