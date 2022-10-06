@@ -6,6 +6,7 @@
         Billed = 1,
         Canceled = 2,
         Resolved = 3,
-        Open = 4
+        Open = 4,
+        Closed = 5,
     }
 }
